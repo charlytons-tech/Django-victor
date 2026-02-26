@@ -4,5 +4,5 @@ def index(request):
     return HttpResponse("Hello, Geeks! Welcome to your first Django app.")
 
 
-def healthcheck(request):
+def healthchecks(request):
     return HttpResponse("health check")
